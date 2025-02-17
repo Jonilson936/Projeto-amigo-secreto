@@ -11,3 +11,12 @@ function adicionarAmigo() {
     }
 }
 
+function exibirAmigos() {
+    const listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = ''; 
+    for (let amigo of nome) {
+        const li = document.createElement('li');
+        li.textContent = amigo; 
+        listaAmigos.appendChild(li); 
+    }
+}
