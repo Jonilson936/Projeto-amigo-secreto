@@ -20,3 +20,20 @@ function exibirAmigos() {
         listaAmigos.appendChild(li); 
     }
 }
+
+function sortearAmigo() {
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = '';
+
+    if (nome.length > 0) {
+        const indiceAleatorio = Math.floor(Math.random() * nome.length);
+        const amigoSorteado = nome[indiceAleatorio];
+        
+        const li = document.createElement('li');
+        li.textContent = `Amigo secreto sorteado é: ${amigoSorteado}.`;
+        resultado.appendChild(li);
+
+    } else {
+        alert("Não há amigos para sortear.");
+    }
+}
