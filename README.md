@@ -74,4 +74,4 @@ Você pode acessar através do link: https://github.com/Jonilson936/Projeto-amig
 
 
 ## Desenvolvedor
-[<img src="https://github.com/user-attachments/assets/c5424054-1785-429a-9a27-9723306e8c65" width=115><br><sub>Jonilson Cepeda Rodrigues</sub>](https://github.com/Jonilson936) 
+[<img src="https://github.com/user-attachments/assets/c5424054-1785-429a-9a27-9723306e8c65" width=115><br><sub>Jonilson Rodrigues</sub>](https://github.com/Jonilson936) 
